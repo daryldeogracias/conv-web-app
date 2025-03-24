@@ -1,4 +1,6 @@
 import "./globals.css";
+import Mode from "./components/Mode";
+import NextThemeProvider from "./next-theme.provider";
 import { Inter } from "next/font/google";
 import type { Metadata } from "next";
 
@@ -17,7 +19,17 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={inter.className}>{children}</body>
+      <body className={inter.className}>
+        <NextThemeProvider
+          attribute="class"
+          defaultTheme="system"
+          enableSystem
+          disableTransitionOnChange
+        >
+          <Mode />
+          {children}
+        </NextThemeProvider>
+      </body>
     </html>
   );
 }
