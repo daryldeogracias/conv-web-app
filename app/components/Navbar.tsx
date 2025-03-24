@@ -10,7 +10,7 @@ const Navbar = () => {
     <React.Fragment>
       <div className="fixed top-0 left-0 w-full border-b border-stone-800 z-50 bg-white dark:bg-black">
         <div className="bg-linear-to-bl from-violet-400 to-violet-500 p-3"></div>
-        <div className="flex items-center justify-between px-3 sm:px-6 max-w-[1200px] mx-auto py-3 sm:py-4">
+        <div className="flex items-center justify-between px-3 sm:px-6 xl:px-0 max-w-[1200px] mx-auto py-3 sm:py-4">
           <div className="flex items-center gap-3">
             <p className="font-medium text-green-400 text-sm sm:text-lg">X//</p>
             <div className="flex sm:hidden text-stone-400 font-thin">|</div>
