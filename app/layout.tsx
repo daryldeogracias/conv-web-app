@@ -1,5 +1,6 @@
 import "./globals.css";
 import Mode from "./components/Mode";
+import Navbar from "./components/Navbar";
 import NextThemeProvider from "./next-theme.provider";
 import { Inter } from "next/font/google";
 import type { Metadata } from "next";
@@ -22,12 +23,14 @@ export default function RootLayout({
       <body className={inter.className}>
         <NextThemeProvider
           attribute="class"
-          defaultTheme="system"
-          enableSystem
+          defaultTheme="light"
+          enableSystem={false}
           disableTransitionOnChange
         >
-          <Mode />
-          {children}
+          <div className="relative max-w-[1200px] mx-auto">
+            <Navbar />
+            {children}
+          </div>
         </NextThemeProvider>
       </body>
     </html>
