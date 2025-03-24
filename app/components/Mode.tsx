@@ -9,7 +9,7 @@ const Mode = () => {
   const isLight = theme === "light";
 
   return (
-    <div className="flex items-center gap-2">
+    <div className="flex items-center gap-2 text-xs sm:text-sm lg:text-[16px]">
       <span
         className={` transition-opacity duration-200 ${
           isLight ? "text-white" : "text-stone-400"
