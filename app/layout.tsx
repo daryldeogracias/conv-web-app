@@ -1,5 +1,4 @@
 import "./globals.css";
-import Mode from "./components/Mode";
 import Navbar from "./components/Navbar";
 import NextThemeProvider from "./next-theme.provider";
 import { Inter } from "next/font/google";
