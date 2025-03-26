@@ -12,3 +12,60 @@
     padding: 0;
   }
 }
+
+.image-container {
+  position: relative;
+  background: linear-gradient(to left, #f0abfc, #8b5cf6);
+  height: 1000px;
+  display: flex;
+}
+
+@media (min-width: 344px) {
+  .image-container {
+    height: 930px;
+  }
+}
+
+
+@media (min-width: 360px) {
+  .image-container {
+    height: 978px;
+  }
+}
+
+@media (min-width: 390px) {
+  .image-container {
+    height: 1040px;
+  }
+}
+
+@media (min-width: 412px) {
+  .image-container {
+    height: 1110px;
+  }
+}
+
+@media (min-width: 430px) {
+  .image-container {
+    height: 1150px;
+  }
+}
+
+@media (min-width: 512px) {
+  .image-container {
+    height: 1400px;
+  }
+}
+
+@media (min-width: 630px) {
+  .image-container {
+    height: 1730px;
+  }
+}
+
+
+@media (min-width: 640px) {
+  .image-container {
+    display: none;
+  }
+}
