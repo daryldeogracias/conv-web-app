@@ -1,6 +1,5 @@
 import "./globals.css";
 import Navbar from "./components/Navbar";
-import Footer from "./components/Footer";
 import NextThemeProvider from "./next-theme.provider";
 import { Inter } from "next/font/google";
 import type { Metadata } from "next";
@@ -20,7 +19,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={inter.className}>
+      <body className={`${inter.className} relative`}>
         <NextThemeProvider
           attribute="class"
           defaultTheme="light"
@@ -30,7 +29,6 @@ export default function RootLayout({
           <div className="relative max-w-[1200px] mx-auto">
             <Navbar />
             {children}
-            <Footer />
           </div>
         </NextThemeProvider>
       </body>

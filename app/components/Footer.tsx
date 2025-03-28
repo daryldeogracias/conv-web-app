@@ -22,8 +22,8 @@ const Footer = () => {
         </motion.h2>
         <div className="flex justify-center mt-12">
           <Link href="/https://www.temu.com/megneta--8-in-1-all--aid-supplement-for-adults-with-plus-ashwagandha-l-theanine-----sleeping-60-capsules-g-601099703179468.html?_oak_name_id=3139139780460737376&_oak_mp_inf=EMyxofKm1ogBGiBlN2Y2ZGQwMDgxY2Y0YjcxYjliNmM1Y2U3NjgyZjlkMCDRkMuh3DI%3D&top_gallery_url=https%3A%2F%2Fimg.kwcdn.com%2Fproduct%2Ffancy%2Ffa12c091-18a3-4551-a0fd-27adb308802b.jpg&spec_gallery_id=601099703179468&refer_page_sn=10009&refer_source=0&freesia_scene=2&_oak_freesia_scene=2&_oak_rec_ext_1=ODIy&_oak_gallery_order=1711245405%2C1397490236%2C1781268706%2C1834789939%2C1015085479&search_key=Megneta%208-in-1%20Sleep%20Supplement&refer_page_el_sn=200049&_x_sessn_id=ngbefkw5fo&refer_page_name=search_result&refer_page_id=10009_1742753417652_hheuq958l6">
-            <button className="bg-violet-400 z-40 hover:bg-violet-400/90  text-white px-6 py-2 rounded-full font-semibold cursor-pointer">
-              Get your Megneta for $99 ONLY!
+            <button className="bg-violet-500 z-40 hover:bg-violet-500/90  text-white px-6 py-2 rounded-full font-semibold cursor-pointer">
+              Get your Megneta for $49 ONLY!
             </button>
           </Link>
         </div>
@@ -35,14 +35,16 @@ const Footer = () => {
         viewport={{ once: true }}
         className="flex justify-center overflow-hidden sm:hidden"
       >
-        <div className="relative h-[300px] w-[300px]">
-          <Image
-            src="/product.png"
-            fill
-            alt="product_image"
-            className="rotate-45 object-contain"
-          />
-        </div>
+        <Link href="/https://www.temu.com/megneta--8-in-1-all--aid-supplement-for-adults-with-plus-ashwagandha-l-theanine-----sleeping-60-capsules-g-601099703179468.html?_oak_name_id=3139139780460737376&_oak_mp_inf=EMyxofKm1ogBGiBlN2Y2ZGQwMDgxY2Y0YjcxYjliNmM1Y2U3NjgyZjlkMCDRkMuh3DI%3D&top_gallery_url=https%3A%2F%2Fimg.kwcdn.com%2Fproduct%2Ffancy%2Ffa12c091-18a3-4551-a0fd-27adb308802b.jpg&spec_gallery_id=601099703179468&refer_page_sn=10009&refer_source=0&freesia_scene=2&_oak_freesia_scene=2&_oak_rec_ext_1=ODIy&_oak_gallery_order=1711245405%2C1397490236%2C1781268706%2C1834789939%2C1015085479&search_key=Megneta%208-in-1%20Sleep%20Supplement&refer_page_el_sn=200049&_x_sessn_id=ngbefkw5fo&refer_page_name=search_result&refer_page_id=10009_1742753417652_hheuq958l6">
+          <div className="relative h-[300px] w-[300px]">
+            <Image
+              src="/product.png"
+              fill
+              alt="product_image"
+              className="rotate-45 object-contain"
+            />
+          </div>
+        </Link>
       </motion.div>
       <div className="hidden sm:absolute inset-0 sm:flex justify-center items-center xl:justify-end xl:items-start xl:top-20 xl:right-16 opacity-10 xl:opacity-100 pointer-events-none z-0">
         <div className="relative h-[500px] w-[500px] xl:h-[300px] xl:w-[300px]">

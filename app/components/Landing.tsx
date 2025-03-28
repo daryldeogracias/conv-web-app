@@ -27,6 +27,10 @@ const Landing = () => {
           🩺 clinically reviewed formula
         </div>
         <Headline />
+        <em className="text-xl pt-2">
+          Price starts at <span className="text-green-400">$49</span> /{" "}
+          <s className="text-stone-400">$99</s>
+        </em>
         <div className="flex w-full px-2 py-2 gap-2 justify-center mt-3 lg:hidden bg-violet-500 text-white rounded-md font-semibold">
           <p>Checkout</p>
           <Bag />
@@ -40,7 +44,7 @@ const Landing = () => {
               className="w-full cursor-pointer hover:underline underline-offset-1"
             >
               Free shipping guaranteed
-              <span className="text-green-500 ml-1">
+              <span className="text-green-400 ml-1">
                 (only 12 left for this offer)
               </span>
               <span className="hidden lg:inline ml-1">{"->"}</span>
