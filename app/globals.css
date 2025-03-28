@@ -26,7 +26,6 @@
   }
 }
 
-
 @media (min-width: 360px) {
   .image-container {
     height: 978px;
@@ -62,7 +61,6 @@
     height: 1730px;
   }
 }
-
 
 @media (min-width: 640px) {
   .image-container {
