@@ -16,7 +16,7 @@ const Benefits = () => {
   const isInView = useInView(noteRef, { once: true, margin: "-50px" });
 
   return (
-    <section className="w-full mt-12 lg:mt-22">
+    <section className="w-full mt-12 lg:mt-22" id="benefits">
       <h3 className="flex justify-center text-lg text-center sm:text-xl lg:text-2xl font-semibold">
         Your journey to restful <br className="flex sm:hidden" /> sleep starts
         here 😴

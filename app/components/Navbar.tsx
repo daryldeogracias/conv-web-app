@@ -4,6 +4,7 @@ import React from "react";
 import Mode from "./Mode";
 import Menu from "./Menu";
 import Bag from "@/public/Bag";
+import Link from "next/link";
 
 const Navbar = () => {
   return (
@@ -19,15 +20,38 @@ const Navbar = () => {
             <Menu />
           </div>
           <div className="hidden sm:flex items-center gap-4 lg:gap-6 text-black dark:text-white sm:text-sm lg:text-[16px]">
-            <div className="cursor-pointer hover:underline underline-offset-2">
+            <Link
+              href="/"
+              className="cursor-pointer hover:underline underline-offset-2"
+            >
               Reviews
-            </div>
-            <div className="cursor-pointer hover:underline underline-offset-2">
+            </Link>
+            <Link
+              href="/#testimonials"
+              scroll={false}
+              onClick={(e) => {
+                e.preventDefault();
+                document
+                  .getElementById("testimonials")
+                  ?.scrollIntoView({ behavior: "smooth" });
+              }}
+              className="cursor-pointer hover:underline underline-offset-2"
+            >
               Testimonials
-            </div>
-            <div className="cursor-pointer hover:underline underline-offset-2">
+            </Link>
+            <Link
+              href="/#benefits"
+              scroll={false}
+              onClick={(e) => {
+                e.preventDefault();
+                document
+                  .getElementById("benefits")
+                  ?.scrollIntoView({ behavior: "smooth" });
+              }}
+              className="cursor-pointer hover:underline underline-offset-2"
+            >
               Benefits
-            </div>
+            </Link>
             <div className="flex items-center gap-2 cursor-pointer hover:underline underline-offset-2">
               <div>Checkout</div>
               <Bag />

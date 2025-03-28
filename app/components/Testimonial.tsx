@@ -17,7 +17,7 @@ const Testimonial = () => {
   const { theme } = useTheme();
 
   return (
-    <div className="mt-18 lg:mt-22">
+    <div className="mt-18 lg:mt-22" id="testimonials">
       <h3 className="text-lg sm:text-xl lg:text-2xl font-semibold text-center">
         Trusted by individuals for deep, restful, healthy sleep 😍
       </h3>
