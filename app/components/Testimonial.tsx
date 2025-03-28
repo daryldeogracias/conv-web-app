@@ -2,6 +2,7 @@
 
 import React from "react";
 import Image from "next/image";
+import Star from "@/public/Star";
 import testimonials from "@/public/testimonials.json";
 import { useTheme } from "next-themes";
 import { motion } from "framer-motion";
@@ -39,7 +40,7 @@ const Testimonial = () => {
                     boxShadow:
                       "rgba(14, 63, 126, 0.06) 0px 0px 0px 1px, rgba(42, 51, 70, 0.03) 0px 1px 1px -0.5px, rgba(42, 51, 70, 0.04) 0px 2px 2px -1px, rgba(42, 51, 70, 0.04) 0px 3px 3px -1.5px, rgba(42, 51, 70, 0.03) 0px 5px 5px -2.5px, rgba(42, 51, 70, 0.03) 0px 10px 10px -5px, rgba(42, 51, 70, 0.03) 0px 24px 24px -8px",
                   }}
-                  className={`flex items-start gap-2 p-4 lg:p-6  rounded ${
+                  className={`relative flex items-start gap-2 p-4 lg:p-6  rounded ${
                     theme === "light" ? "" : "bg-stone-900 text-gray-100"
                   }`}
                 >
@@ -55,6 +56,13 @@ const Testimonial = () => {
                   <div className="flex flex-col">
                     <h6>{testimonial.quote}</h6>
                     <em className="text-end mt-2">- {testimonial.author}</em>
+                  </div>
+                  <div className="absolute bottom-4 left-6 flex gap-0.5">
+                    <Star />
+                    <Star />
+                    <Star />
+                    <Star />
+                    <Star />
                   </div>
                 </motion.div>
               ))}
