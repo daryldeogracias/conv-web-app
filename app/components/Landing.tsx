@@ -4,6 +4,8 @@ import React from "react";
 import Image from "next/image";
 import Truck from "@/public/Truck";
 import Bag from "@/public/Bag";
+import Headline from "./Headline";
+import Hero from "./Hero";
 import { useTheme } from "next-themes";
 
 const Landing = () => {
@@ -23,12 +25,7 @@ const Landing = () => {
         >
           🩺 clinically reviewed formula
         </div>
-        <h1 className="text-xl sm:text-2xl lg:text-3xl xl:text-4xl font-bold sm:leading-8 lg:leading-10 xl:leading-12">
-          Sleep deeper and wake up refreshed with{" "}
-          <span className="text-violet-500">Megneta 8-in-1</span>.{" "}
-          <span className="text-violet-500">Natural</span> , non-groggy support
-          for better rest—starting tonight!
-        </h1>
+        <Headline />
         <div className="flex w-full px-2 py-2 gap-2 justify-center mt-3 lg:hidden bg-violet-500 text-white rounded-md font-semibold">
           <p>Checkout</p>
           <Bag />
@@ -99,17 +96,7 @@ const Landing = () => {
           </div>
         </div>
       </div>
-      <div className="flex justify-end">
-        <div className="h-[360px] w-[360px] sm:h-80 sm:w-80 lg:h-100 lg:w-100 xl:h-120 xl:w-120 relative">
-          <Image
-            src="/Megneta 8-in-1 Sleep Supplement.png"
-            alt="Megneta 8-in-1 Sleep Supplement"
-            fill
-            loading="lazy"
-            className="object-contain"
-          />
-        </div>
-      </div>
+      <Hero />
     </section>
   );
 };

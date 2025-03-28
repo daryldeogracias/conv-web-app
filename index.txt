@@ -1,0 +1,11 @@
+1. benefits -> 3 sentences
+
+2. benefits drop down -> https://www.myhumbleroots.com/products/sleep-recovery-support
+
+3. testimonial -> 5 square brackets
+
+4. reviews -> mock data like reviews
+
+5. footer -> title blank
+
+6. checkout + price thing
