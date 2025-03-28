@@ -21,7 +21,7 @@ const Footer = () => {
           starts now.
         </motion.h2>
         <div className="flex justify-center mt-12">
-          <Link href="/contact">
+          <Link href="/https://www.temu.com/megneta--8-in-1-all--aid-supplement-for-adults-with-plus-ashwagandha-l-theanine-----sleeping-60-capsules-g-601099703179468.html?_oak_name_id=3139139780460737376&_oak_mp_inf=EMyxofKm1ogBGiBlN2Y2ZGQwMDgxY2Y0YjcxYjliNmM1Y2U3NjgyZjlkMCDRkMuh3DI%3D&top_gallery_url=https%3A%2F%2Fimg.kwcdn.com%2Fproduct%2Ffancy%2Ffa12c091-18a3-4551-a0fd-27adb308802b.jpg&spec_gallery_id=601099703179468&refer_page_sn=10009&refer_source=0&freesia_scene=2&_oak_freesia_scene=2&_oak_rec_ext_1=ODIy&_oak_gallery_order=1711245405%2C1397490236%2C1781268706%2C1834789939%2C1015085479&search_key=Megneta%208-in-1%20Sleep%20Supplement&refer_page_el_sn=200049&_x_sessn_id=ngbefkw5fo&refer_page_name=search_result&refer_page_id=10009_1742753417652_hheuq958l6">
             <button className="bg-violet-400 z-40 hover:bg-violet-400/90  text-white px-6 py-2 rounded-full font-semibold cursor-pointer">
               Get your Megneta for $99 ONLY!
             </button>
@@ -54,7 +54,7 @@ const Footer = () => {
           />
         </div>
       </div>
-      <div className="flex sm:hidden justify-center items-center mt-12 space-x-4 p-4 bg-[#242424]">
+      <div className="flex sm:hidden justify-center items-center mt-12 space-x-4 p-4 bg-[#0c0c0c]">
         <p className="font-medium text-green-400 text-sm">X//</p>
         <div className="text-stone-400 text-xs">©️ 2024 Megneta</div>
       </div>
@@ -85,27 +85,42 @@ const Footer = () => {
             <span className="font-semibold">Products</span>
             <ul className="mt-4 space-y-1">
               <li>
-                <Link href="/" className="hover:underline underline-offset-2">
+                <Link
+                  href="https://www.temu.com/megneta--8-in-1-all--aid-supplement-for-adults-with-plus-ashwagandha-l-theanine-----sleeping-60-capsules-g-601099703179468.html?_oak_name_id=3139139780460737376&_oak_mp_inf=EMyxofKm1ogBGiBlN2Y2ZGQwMDgxY2Y0YjcxYjliNmM1Y2U3NjgyZjlkMCDRkMuh3DI%3D&top_gallery_url=https%3A%2F%2Fimg.kwcdn.com%2Fproduct%2Ffancy%2Ffa12c091-18a3-4551-a0fd-27adb308802b.jpg&spec_gallery_id=601099703179468&refer_page_sn=10009&refer_source=0&freesia_scene=2&_oak_freesia_scene=2&_oak_rec_ext_1=ODIy&_oak_gallery_order=1711245405%2C1397490236%2C1781268706%2C1834789939%2C1015085479&search_key=Megneta%208-in-1%20Sleep%20Supplement&refer_page_el_sn=200049&_x_sessn_id=ngbefkw5fo&refer_page_name=search_result&refer_page_id=10009_1742753417652_hheuq958l6"
+                  className="hover:underline underline-offset-2"
+                >
                   Megneta 8-in-1
                 </Link>
               </li>
               <li>
-                <Link href="/" className="hover:underline underline-offset-2">
+                <Link
+                  href="https://www.temu.com/megneta--8-in-1-all--aid-supplement-for-adults-with-plus-ashwagandha-l-theanine-----sleeping-60-capsules-g-601099703179468.html?_oak_name_id=3139139780460737376&_oak_mp_inf=EMyxofKm1ogBGiBlN2Y2ZGQwMDgxY2Y0YjcxYjliNmM1Y2U3NjgyZjlkMCDRkMuh3DI%3D&top_gallery_url=https%3A%2F%2Fimg.kwcdn.com%2Fproduct%2Ffancy%2Ffa12c091-18a3-4551-a0fd-27adb308802b.jpg&spec_gallery_id=601099703179468&refer_page_sn=10009&refer_source=0&freesia_scene=2&_oak_freesia_scene=2&_oak_rec_ext_1=ODIy&_oak_gallery_order=1711245405%2C1397490236%2C1781268706%2C1834789939%2C1015085479&search_key=Megneta%208-in-1%20Sleep%20Supplement&refer_page_el_sn=200049&_x_sessn_id=ngbefkw5fo&refer_page_name=search_result&refer_page_id=10009_1742753417652_hheuq958l6"
+                  className="hover:underline underline-offset-2"
+                >
                   Benefits
                 </Link>
               </li>
               <li>
-                <Link href="/" className="hover:underline underline-offset-2">
+                <Link
+                  href="https://www.temu.com/megneta--8-in-1-all--aid-supplement-for-adults-with-plus-ashwagandha-l-theanine-----sleeping-60-capsules-g-601099703179468.html?_oak_name_id=3139139780460737376&_oak_mp_inf=EMyxofKm1ogBGiBlN2Y2ZGQwMDgxY2Y0YjcxYjliNmM1Y2U3NjgyZjlkMCDRkMuh3DI%3D&top_gallery_url=https%3A%2F%2Fimg.kwcdn.com%2Fproduct%2Ffancy%2Ffa12c091-18a3-4551-a0fd-27adb308802b.jpg&spec_gallery_id=601099703179468&refer_page_sn=10009&refer_source=0&freesia_scene=2&_oak_freesia_scene=2&_oak_rec_ext_1=ODIy&_oak_gallery_order=1711245405%2C1397490236%2C1781268706%2C1834789939%2C1015085479&search_key=Megneta%208-in-1%20Sleep%20Supplement&refer_page_el_sn=200049&_x_sessn_id=ngbefkw5fo&refer_page_name=search_result&refer_page_id=10009_1742753417652_hheuq958l6"
+                  className="hover:underline underline-offset-2"
+                >
                   Ingredients
                 </Link>
               </li>
               <li>
-                <Link href="/" className="hover:underline underline-offset-2">
+                <Link
+                  href="https://www.temu.com/megneta--8-in-1-all--aid-supplement-for-adults-with-plus-ashwagandha-l-theanine-----sleeping-60-capsules-g-601099703179468.html?_oak_name_id=3139139780460737376&_oak_mp_inf=EMyxofKm1ogBGiBlN2Y2ZGQwMDgxY2Y0YjcxYjliNmM1Y2U3NjgyZjlkMCDRkMuh3DI%3D&top_gallery_url=https%3A%2F%2Fimg.kwcdn.com%2Fproduct%2Ffancy%2Ffa12c091-18a3-4551-a0fd-27adb308802b.jpg&spec_gallery_id=601099703179468&refer_page_sn=10009&refer_source=0&freesia_scene=2&_oak_freesia_scene=2&_oak_rec_ext_1=ODIy&_oak_gallery_order=1711245405%2C1397490236%2C1781268706%2C1834789939%2C1015085479&search_key=Megneta%208-in-1%20Sleep%20Supplement&refer_page_el_sn=200049&_x_sessn_id=ngbefkw5fo&refer_page_name=search_result&refer_page_id=10009_1742753417652_hheuq958l6"
+                  className="hover:underline underline-offset-2"
+                >
                   Customer Reviews
                 </Link>
               </li>
               <li>
-                <Link href="/" className="hover:underline underline-offset-2">
+                <Link
+                  href="https://www.temu.com/megneta--8-in-1-all--aid-supplement-for-adults-with-plus-ashwagandha-l-theanine-----sleeping-60-capsules-g-601099703179468.html?_oak_name_id=3139139780460737376&_oak_mp_inf=EMyxofKm1ogBGiBlN2Y2ZGQwMDgxY2Y0YjcxYjliNmM1Y2U3NjgyZjlkMCDRkMuh3DI%3D&top_gallery_url=https%3A%2F%2Fimg.kwcdn.com%2Fproduct%2Ffancy%2Ffa12c091-18a3-4551-a0fd-27adb308802b.jpg&spec_gallery_id=601099703179468&refer_page_sn=10009&refer_source=0&freesia_scene=2&_oak_freesia_scene=2&_oak_rec_ext_1=ODIy&_oak_gallery_order=1711245405%2C1397490236%2C1781268706%2C1834789939%2C1015085479&search_key=Megneta%208-in-1%20Sleep%20Supplement&refer_page_el_sn=200049&_x_sessn_id=ngbefkw5fo&refer_page_name=search_result&refer_page_id=10009_1742753417652_hheuq958l6"
+                  className="hover:underline underline-offset-2"
+                >
                   FAQ
                 </Link>
               </li>
@@ -125,14 +140,17 @@ const Footer = () => {
               </li>
               <li>
                 <Link
-                  href="tel:+123456789"
+                  href="https://www.temu.com/megneta--8-in-1-all--aid-supplement-for-adults-with-plus-ashwagandha-l-theanine-----sleeping-60-capsules-g-601099703179468.html?_oak_name_id=3139139780460737376&_oak_mp_inf=EMyxofKm1ogBGiBlN2Y2ZGQwMDgxY2Y0YjcxYjliNmM1Y2U3NjgyZjlkMCDRkMuh3DI%3D&top_gallery_url=https%3A%2F%2Fimg.kwcdn.com%2Fproduct%2Ffancy%2Ffa12c091-18a3-4551-a0fd-27adb308802b.jpg&spec_gallery_id=601099703179468&refer_page_sn=10009&refer_source=0&freesia_scene=2&_oak_freesia_scene=2&_oak_rec_ext_1=ODIy&_oak_gallery_order=1711245405%2C1397490236%2C1781268706%2C1834789939%2C1015085479&search_key=Megneta%208-in-1%20Sleep%20Supplement&refer_page_el_sn=200049&_x_sessn_id=ngbefkw5fo&refer_page_name=search_result&refer_page_id=10009_1742753417652_hheuq958l6"
                   className="hover:underline underline-offset-2"
                 >
                   Phone Support
                 </Link>
               </li>
               <li>
-                <Link href="/" className="hover:underline underline-offset-2">
+                <Link
+                  href="https://www.temu.com/megneta--8-in-1-all--aid-supplement-for-adults-with-plus-ashwagandha-l-theanine-----sleeping-60-capsules-g-601099703179468.html?_oak_name_id=3139139780460737376&_oak_mp_inf=EMyxofKm1ogBGiBlN2Y2ZGQwMDgxY2Y0YjcxYjliNmM1Y2U3NjgyZjlkMCDRkMuh3DI%3D&top_gallery_url=https%3A%2F%2Fimg.kwcdn.com%2Fproduct%2Ffancy%2Ffa12c091-18a3-4551-a0fd-27adb308802b.jpg&spec_gallery_id=601099703179468&refer_page_sn=10009&refer_source=0&freesia_scene=2&_oak_freesia_scene=2&_oak_rec_ext_1=ODIy&_oak_gallery_order=1711245405%2C1397490236%2C1781268706%2C1834789939%2C1015085479&search_key=Megneta%208-in-1%20Sleep%20Supplement&refer_page_el_sn=200049&_x_sessn_id=ngbefkw5fo&refer_page_name=search_result&refer_page_id=10009_1742753417652_hheuq958l6"
+                  className="hover:underline underline-offset-2"
+                >
                   Help Center
                 </Link>
               </li>
@@ -143,17 +161,26 @@ const Footer = () => {
             <span className="font-semibold">Resources</span>
             <ul className="mt-4 space-y-1">
               <li>
-                <Link href="/" className="hover:underline underline-offset-2">
+                <Link
+                  href="https://www.temu.com/megneta--8-in-1-all--aid-supplement-for-adults-with-plus-ashwagandha-l-theanine-----sleeping-60-capsules-g-601099703179468.html?_oak_name_id=3139139780460737376&_oak_mp_inf=EMyxofKm1ogBGiBlN2Y2ZGQwMDgxY2Y0YjcxYjliNmM1Y2U3NjgyZjlkMCDRkMuh3DI%3D&top_gallery_url=https%3A%2F%2Fimg.kwcdn.com%2Fproduct%2Ffancy%2Ffa12c091-18a3-4551-a0fd-27adb308802b.jpg&spec_gallery_id=601099703179468&refer_page_sn=10009&refer_source=0&freesia_scene=2&_oak_freesia_scene=2&_oak_rec_ext_1=ODIy&_oak_gallery_order=1711245405%2C1397490236%2C1781268706%2C1834789939%2C1015085479&search_key=Megneta%208-in-1%20Sleep%20Supplement&refer_page_el_sn=200049&_x_sessn_id=ngbefkw5fo&refer_page_name=search_result&refer_page_id=10009_1742753417652_hheuq958l6"
+                  className="hover:underline underline-offset-2"
+                >
                   Blog
                 </Link>
               </li>
               <li>
-                <Link href="/" className="hover:underline underline-offset-2">
+                <Link
+                  href="https://www.temu.com/megneta--8-in-1-all--aid-supplement-for-adults-with-plus-ashwagandha-l-theanine-----sleeping-60-capsules-g-601099703179468.html?_oak_name_id=3139139780460737376&_oak_mp_inf=EMyxofKm1ogBGiBlN2Y2ZGQwMDgxY2Y0YjcxYjliNmM1Y2U3NjgyZjlkMCDRkMuh3DI%3D&top_gallery_url=https%3A%2F%2Fimg.kwcdn.com%2Fproduct%2Ffancy%2Ffa12c091-18a3-4551-a0fd-27adb308802b.jpg&spec_gallery_id=601099703179468&refer_page_sn=10009&refer_source=0&freesia_scene=2&_oak_freesia_scene=2&_oak_rec_ext_1=ODIy&_oak_gallery_order=1711245405%2C1397490236%2C1781268706%2C1834789939%2C1015085479&search_key=Megneta%208-in-1%20Sleep%20Supplement&refer_page_el_sn=200049&_x_sessn_id=ngbefkw5fo&refer_page_name=search_result&refer_page_id=10009_1742753417652_hheuq958l6"
+                  className="hover:underline underline-offset-2"
+                >
                   Research & Studies
                 </Link>
               </li>
               <li>
-                <Link href="/" className="hover:underline underline-offset-2">
+                <Link
+                  href="https://www.temu.com/megneta--8-in-1-all--aid-supplement-for-adults-with-plus-ashwagandha-l-theanine-----sleeping-60-capsules-g-601099703179468.html?_oak_name_id=3139139780460737376&_oak_mp_inf=EMyxofKm1ogBGiBlN2Y2ZGQwMDgxY2Y0YjcxYjliNmM1Y2U3NjgyZjlkMCDRkMuh3DI%3D&top_gallery_url=https%3A%2F%2Fimg.kwcdn.com%2Fproduct%2Ffancy%2Ffa12c091-18a3-4551-a0fd-27adb308802b.jpg&spec_gallery_id=601099703179468&refer_page_sn=10009&refer_source=0&freesia_scene=2&_oak_freesia_scene=2&_oak_rec_ext_1=ODIy&_oak_gallery_order=1711245405%2C1397490236%2C1781268706%2C1834789939%2C1015085479&search_key=Megneta%208-in-1%20Sleep%20Supplement&refer_page_el_sn=200049&_x_sessn_id=ngbefkw5fo&refer_page_name=search_result&refer_page_id=10009_1742753417652_hheuq958l6"
+                  className="hover:underline underline-offset-2"
+                >
                   Sleep Guide
                 </Link>
               </li>
