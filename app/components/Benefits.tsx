@@ -82,13 +82,12 @@ const Benefits = () => {
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: isInView ? 1 : 0, y: isInView ? 0 : 20 }}
             transition={{ duration: 0.3, ease: "easeOut" }}
-            className="bg-violet-200/50 p-4 rounded mt-4"
+            className="bg-green-200/90 p-4 rounded mt-4"
           >
-            <h6 className="text-sm lg:text-[16px] text-left">
-              <span className="font-medium">Note:</span> This product should be
-              taken as directed. Consult with a healthcare provider before use
-              if pregnant, nursing, taking medications, or if you have a medical
-              condition.
+            <h6 className="text-green-900 text-sm lg:text-[16px] text-left font-medium">
+              Note: This product should be taken as directed. Consult with a
+              healthcare provider before use if pregnant, nursing, taking
+              medications, or if you have a medical condition.
             </h6>
           </motion.div>
         </div>
