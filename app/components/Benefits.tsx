@@ -5,10 +5,13 @@ import Image from "next/image";
 import Heart from "@/public/Heart";
 import Natural from "@/public/Natural";
 import Stress from "@/public/Stress";
+import SleepBenefitsDropdown from "./SleepBenefitsDropdown";
 import { motion } from "framer-motion";
 import { useInView } from "framer-motion";
+import { useTheme } from "next-themes";
 
 const Benefits = () => {
+  const { theme } = useTheme();
   const noteRef = useRef(null);
   const isInView = useInView(noteRef, { once: true, margin: "-50px" });
 
@@ -41,9 +44,15 @@ const Benefits = () => {
         <div className="ml-12">
           <div className="flex flex-col gap-6">
             <div className="flex gap-3.5">
-              <Natural width={40} height={40} scale={12} />
+              <span className={`${theme === "dark" ? "text-green-300" : ""}`}>
+                <Natural width={40} height={40} scale={12} />
+              </span>
               <div>
-                <h4 className="text-lg lg:text-xl font-semibold">
+                <h4
+                  className={`text-lg lg:text-xl font-semibold ${
+                    theme === "dark" ? "text-green-300" : ""
+                  }`}
+                >
                   Natural & Safe Formula
                 </h4>
                 <p className="text-sm lg:text-lg">
@@ -53,9 +62,15 @@ const Benefits = () => {
             </div>
 
             <div className="flex gap-3.5">
-              <Heart width={40} height={40} scale={12} />
+              <span className={`${theme === "dark" ? "text-green-300" : ""}`}>
+                <Heart width={40} height={40} scale={12} />
+              </span>
               <div>
-                <h4 className="text-lg lg:text-xl font-semibold">
+                <h4
+                  className={`text-lg lg:text-xl font-semibold ${
+                    theme === "dark" ? "text-green-300" : ""
+                  }`}
+                >
                   Supports Immune Health
                 </h4>
                 <p className="text-sm lg:text-lg">
@@ -65,9 +80,15 @@ const Benefits = () => {
             </div>
 
             <div className="flex gap-3.5">
-              <Stress width={40} height={40} scale={12} />
+              <span className={`${theme === "dark" ? "text-green-300" : ""}`}>
+                <Stress width={40} height={40} scale={12} />
+              </span>
               <div>
-                <h4 className="text-lg lg:text-xl font-semibold">
+                <h4
+                  className={`text-lg lg:text-xl font-semibold ${
+                    theme === "dark" ? "text-green-300" : ""
+                  }`}
+                >
                   Reduces Stress & Anxiety
                 </h4>
                 <p className="text-sm lg:text-lg">
@@ -92,6 +113,7 @@ const Benefits = () => {
           </motion.div>
         </div>
       </div>
+      <SleepBenefitsDropdown />
     </section>
   );
 };
